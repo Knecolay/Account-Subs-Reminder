@@ -1,0 +1,14 @@
+{
+  "name": "gpt-gemini-subs-worker",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Cloudflare Workers + KV subscription tracker (ChatGPT / Google Gemini) with Resend email reminders.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.100.0"
+  }
+}
+

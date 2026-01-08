@@ -1,0 +1,12 @@
+name = "gpt-gemini-subs-tracker"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[[kv_namespaces]]
+binding = "SUBS_KV"
+id = "REPLACE_WITH_PROD_KV_ID"
+preview_id = "REPLACE_WITH_PREVIEW_KV_ID"
+
+[triggers]
+# Twice daily (UTC): 00:00 and 12:00 => Beijing 08:00 and 20:00.
+crons = ["0 0 * * *", "0 12 * * *"]
